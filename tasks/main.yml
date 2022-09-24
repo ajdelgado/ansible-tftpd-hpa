@@ -1,6 +1,6 @@
 ---
 # tasks file for ansible-tftpd-hpa
-- include: debian.yml
+- import_tasks: debian.yml
   when: ansible_os_family == "Debian"
 
-- include: config_tftpd.yml
+- import_tasks: config_tftpd.yml
