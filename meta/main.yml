@@ -1,18 +1,22 @@
+---
 galaxy_info:
-  author: Larry Smith Jr.
-  description: An [Ansible] role to install/configure [tftpd-hpa]
-  license: MIT
+  author: Antonio J. Delgado (ajdelgado)
+  description: TODO - Description
 
-  min_ansible_version: 1.2
+#  issue_tracker_url: https://github.com/uoi-io/ansible-galera/issues
+
+  license: GPLv3
+
+  min_ansible_version: "2.0"
+
+  github_branch: master
 
   platforms:
   - name: Ubuntu
     versions:
-    - trusty
-    - xenial
+    - focal
+    - jammy
 
-  galaxy_tags:
-    - system
-    - network
+  galaxy_tags: []# TODO
 
 dependencies: []
